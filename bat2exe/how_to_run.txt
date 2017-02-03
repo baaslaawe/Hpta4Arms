@@ -1,0 +1,4 @@
+navigate your command to this dir .
+in the command write bat2exe.bat your_batch_file your_exe_file 
+example :
+bat2exe.bat launch.bat lanuched.exe
