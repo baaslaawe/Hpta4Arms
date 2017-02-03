@@ -1,15 +1,15 @@
 #Hpta4Arms 
-is a buggy tool used to spy on your friends it consists of 4_MAIN_ARMs <br>
-First Arm : is Key logger that will save your key logs to a file called '''log.in''' <br>
-Second Arm : will take photo from your laptop camera and save it in a file called '''logg.png'''<br>
-Third Arm : will detect your location using this API freegeoip.net <br>
-Fourth Arm : will package the last three arms and send them to your email address that you provide<br>
+is a buggy tool used to spy on your friends it consists of 4_MAIN_ARMs
+`First Arm` : is Key logger that will save your key logs to a file called `log.in` <br>
+`Second Arm` : will take photo from your laptop camera and save it in a file called `logg.png` <br>
+`Third Arm` : will detect your location using this API freegeoip.net <br>
+`Fourth Arm` : will package the last three arms and send them to your email address that you provide <br>
 
 #Working Technique
-first thing this is a spying tool so it has to work secretly in the background and run every time the computer is restarting and that is exaclly what hide()and addStartup()
+first thing this is a spying tool so it has to work secretly in the background and run every time the computer is restarting and that is exaclly what `hide()` and `addStartup()`
 do so let's start from the beginning : <br>
 1- Hpta4Arms will hide itself and added to your start-up apps with the value of true <br>
-2- and after that it will open afile called log.in and write a START:: word at the beginning it is a mark for your logs starting<br>
+2- and after that it will open afile called `log.in` and write a `START::` word at the beginning it is a mark for your logs starting<br>
 3- it will take a photo and save it to a file called logg.jpg this file will delete himself after it has been sent to the email address<br> 
 4- it will detect your location (Lat & lng)--(this might not be accurate because of the API it will detect your first public IP and return it's location)<br>
 5- it will send an email to the address you provided with this plain text<br>
