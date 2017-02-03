@@ -13,16 +13,12 @@ do so let's start from the beginning : <br>
 2. and after that it will open afile called `log.in` and write a `START::` word at the beginning it is a mark for your logs starting<br>
 3. it will take a photo and save it to a file called logg.jpg this file will delete himself after it has been sent to the email address<br> 
 4. it will detect your location (Lat & lng)--(this might not be accurate because of the API it will detect your first public IP and return it's location)<br>
-5. it will send an email to the address you provided with this plain text<br>
-'''
-My name is YOUR_FRIEND'S_PC_NAME
-I am at YOUR_FRIEND'S_LOCATION locate me on the map : http://www.whatsmygps.com/
-'''
+5. it will send an email to the address you provided<br>
 this message will have two files attached the log.in (Logs Text file) and logg.jpg (photo that has been captured from your friend cam)<br>
 <img src = "https://github.com/GardiansLab/Hpta4Arms/blob/master/Capture.PNG">
 
 #Install
-first you need to install the python packages to help in building your exe files you can plant it in your friend PC so let's go 
+first you need to install the python packages to help in building your exe files you can plant it in your friend PC so let's go <br>
 1. you need to install the packages from the requirements.txt file using this command  (navigate to the tool folder using your CMD)
 `pip install requirement.txt` <br>
 2. you need to specify the from and to email address to can send the email 
